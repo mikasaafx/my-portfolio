@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+	/*min-height: 2000px;*/
+}
+.card {
+	transition: transform .5s;
+}
+.card:hover {
+	box-shadow: 0 16px 64px 0 rgba(0,0,0,0.5);
+}
+
+#card-img {
+	transition: transform .9s
+}
+#card-img:hover {
+	-ms-transform: scale(1.4); /* IE 9 */
+	-webkit-transform: scale(1.4); /* Safari 3-8 */
+	transform: scale(1.4);
+}
+
+.jumbotron {
+	padding-top: 10rem;
+	background-color: #AAFDE4;
+}
+
+#projects {
+	background-color: #BFFFF0;
+}
+
+#contact {
+	/*min-height: 2000px;*/
+}
+
+section {
+	padding-top: 5rem;
+}
+a:hover {
+	  		/*background-color: indianred;*/
+	  		cursor: pointer;
+			}
